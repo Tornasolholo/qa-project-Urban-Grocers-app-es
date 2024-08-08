@@ -46,8 +46,8 @@ def test_create_kit_511_letters_in_kit_name_get_success_response(): #El número 
                     dabcdabcdabcdabcdabcdabcdabcdabC")
 
 
-def test_create_kit_zero_letters_in_kit_name_get_error_response(): #El num de caracteres es menor que la cantidad permitida(0)
-    negative_assert("0")
+def test_create_kit_zero_letters_in_kit_name_get_error_response(): #El num de caracteres es menor que la cantidad permitida()
+    negative_assert("")
 
 
 def test_create_kit_512_letters_in_kit_name_get_error_response(): #El num de caracteres es > que la cantidad permitida (512)
